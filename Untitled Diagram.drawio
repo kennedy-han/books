@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T10:53:34.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Uvnw9RFIhPQV7wmPLeCl" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T10:55:31.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="j5inFLv9TXvHDSaI5_cf" version="15.5.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1581" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -332,7 +332,7 @@
             <mxPoint x="1037" y="1972" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u7pCDF6_uqxXdPKDrsPi-80" value="充值成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.3;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-55">
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-80" value="充值成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.233;entryY=0.894;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-55" target="u7pCDF6_uqxXdPKDrsPi-60">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="2000.0469999999998" as="targetPoint" />
             <mxPoint x="517" y="2000" as="sourcePoint" />
@@ -356,8 +356,8 @@
         <mxCell id="u7pCDF6_uqxXdPKDrsPi-87" value="如果是物流订单type = 3" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="422" y="1367" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u7pCDF6_uqxXdPKDrsPi-90" value="同一个回调地址，接入不同的第三方支付。&lt;br&gt;先根据订单号transNum获取对应的预订单记录，根据关联的业务type，处理不同的流程" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="878" y="1670" width="160" height="130" as="geometry" />
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-90" value="同一个回调地址，接入不同的第三方支付。&lt;br&gt;先根据回传的订单号transNum获取对应的预订单记录，根据关联的业务orderType，处理不同的流程" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="878" y="1670" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="u7pCDF6_uqxXdPKDrsPi-88" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;如果是物流订单，type = 3&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;生成丰朗银联商务号的二维码，设置回调&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="574" y="1441" width="225" height="30" as="geometry" />
