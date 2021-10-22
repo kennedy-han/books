@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T02:03:39.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="8fbvfeEDzkwrxU5voGP2" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-22T02:04:59.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Ri2B4piU0PetvAnLvst5" version="15.5.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1581" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -199,10 +199,10 @@
         <mxCell id="u7pCDF6_uqxXdPKDrsPi-55" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="u7pCDF6_uqxXdPKDrsPi-54">
           <mxGeometry x="89" y="80" width="10" height="860" as="geometry" />
         </mxCell>
-        <mxCell id="u7pCDF6_uqxXdPKDrsPi-56" value="生成二维码展示，待用户付款" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.3;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-54" source="u7pCDF6_uqxXdPKDrsPi-54">
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-56" value="生成二维码展示，待用户付款" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.3;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-54">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-357" y="429.047" as="targetPoint" />
-            <mxPoint x="40" y="429" as="sourcePoint" />
+            <mxPoint x="-357" y="447.047" as="targetPoint" />
+            <mxPoint x="99.5" y="447.047" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u7pCDF6_uqxXdPKDrsPi-57" value="保存回调记录，PayLog记录状态更新&amp;nbsp;&lt;span style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;setPaidFlag(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt ; color: rgb(0 , 51 , 179)&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;)&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-54">
@@ -284,10 +284,10 @@
         <mxCell id="u7pCDF6_uqxXdPKDrsPi-69" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="u7pCDF6_uqxXdPKDrsPi-68">
           <mxGeometry x="82" y="80" width="10" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="u7pCDF6_uqxXdPKDrsPi-70" value="生成二维码展示，待用户付款" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-68" source="u7pCDF6_uqxXdPKDrsPi-68">
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-70" value="生成二维码展示，待用户付款" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-68">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-210" y="390" as="targetPoint" />
-            <mxPoint x="40" y="390" as="sourcePoint" />
+            <mxPoint x="-210" y="429" as="targetPoint" />
+            <mxPoint x="89.5" y="429" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u7pCDF6_uqxXdPKDrsPi-71" value="4. 用户向第三方支付扫码付款" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" target="u7pCDF6_uqxXdPKDrsPi-68">
