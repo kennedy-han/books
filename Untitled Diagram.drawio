@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T02:39:44.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="QRuHachN8KVU9s3FscQx" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-22T07:22:48.033Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="OvJgC-fbkPE4zFijdy4i" version="15.5.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1581" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,6 +361,192 @@
         </mxCell>
         <mxCell id="u7pCDF6_uqxXdPKDrsPi-88" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;如果是物流订单，orderType = 3&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;生成丰朗银联商务号的二维码&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FF0000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="578" y="1480" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-92" value="&lt;span style=&quot;font-size: 14px&quot;&gt;同一个回调地址，处理了不同的业务，如果有新业务加进来，还得改代码&lt;br&gt;包装一层，前端传入业务bizCode拉取支付列表，如丰朗物流目前只有银联支付。&lt;br&gt;用户选择方式后，生成预订单，用户支付，新联回调地址写成新的（收银台）回调地址&lt;br&gt;收银台收到回调后，支付成功，修改预订单状态，再回调业务回调地址，通知业务支付完成，业务自行完成后续逻辑处理。可以设计单独的DB和表&lt;br&gt;之前的逻辑不变，还走之前的回调，从物流订单业务开始，走新的收银台流程&lt;br&gt;todo APP支付流程&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="171" y="2140" width="630" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-93" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="2360" width="115" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-94" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="u7pCDF6_uqxXdPKDrsPi-93">
+          <mxGeometry x="45" y="70" width="10" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-100" value="展示付款二维码" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-95" y="440" as="targetPoint" />
+            <mxPoint x="45" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-140" value="处理成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=1.3;entryY=0.906;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-93" target="u7pCDF6_uqxXdPKDrsPi-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-85" y="870" as="targetPoint" />
+            <mxPoint x="55" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-96" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-97" value="1. 用户发起支付" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-96" target="u7pCDF6_uqxXdPKDrsPi-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="2440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-98" value="展示支付方式" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="2582" as="targetPoint" />
+            <mxPoint x="240" y="2582" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-99" value="2. 选择支付方式，下单" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="2657" as="sourcePoint" />
+            <mxPoint x="240" y="2657" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-102" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2460" width="10" height="849" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-103" value="收银台服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="2360" width="115" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-104" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="u7pCDF6_uqxXdPKDrsPi-103">
+          <mxGeometry x="45" y="70" width="10" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-112" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1.5;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.05;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-103" target="u7pCDF6_uqxXdPKDrsPi-111">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="56.5" y="133" as="sourcePoint" />
+            <mxPoint x="366.5" y="133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-113" value="校验请求等前置操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="u7pCDF6_uqxXdPKDrsPi-112">
+          <mxGeometry x="-0.2963" y="1" relative="1" as="geometry">
+            <mxPoint x="20" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-105" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.517;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-94" target="u7pCDF6_uqxXdPKDrsPi-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="2470" as="sourcePoint" />
+            <mxPoint x="371.5" y="2470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-107" value="传入bizCode拉取支付方式(保证金、物流等)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="u7pCDF6_uqxXdPKDrsPi-105">
+          <mxGeometry x="-0.2963" y="1" relative="1" as="geometry">
+            <mxPoint x="37" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-108" value="返回业务可用支付方式（银联，工行等），或错误码" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252" y="2549" as="targetPoint" />
+            <mxPoint x="560.5" y="2549" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-110" value="业务系统&#xa;gdmall_auction_syn" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="2360" width="115" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-111" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="u7pCDF6_uqxXdPKDrsPi-110">
+          <mxGeometry x="44" y="70" width="10" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-138" value="业务处理" style="endArrow=classic;html=1;rounded=0;exitX=0.483;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.491;entryY=0.701;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="u7pCDF6_uqxXdPKDrsPi-110">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53.99500000000012" y="750.29" as="sourcePoint" />
+            <mxPoint x="54.914999999999964" y="795.8899999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="134.95000000000005" y="750" />
+              <mxPoint x="134.95000000000005" y="796" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-115" value="校验成功 / 失败原因" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="566.5" y="2525" as="targetPoint" />
+            <mxPoint x="875" y="2525" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-116" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.15;entryY=0.458;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="252" y="2680.74" as="sourcePoint" />
+            <mxPoint x="559" y="2680.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-118" value="第三方支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1011" y="2360" width="115" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-119" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="u7pCDF6_uqxXdPKDrsPi-118">
+          <mxGeometry x="44" y="70" width="10" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-120" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571" y="2703" as="sourcePoint" />
+            <mxPoint x="1068" y="2703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-121" value="生成预订单，拉取付款二维码，设置新回调收银台地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="565" y="2683" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-122" value="生成二维码" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.589;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.5" y="2737.17" as="targetPoint" />
+            <mxPoint x="1066" y="2737.17" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-123" value="待用户付款" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.05;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-104" target="u7pCDF6_uqxXdPKDrsPi-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="2770" as="targetPoint" />
+            <mxPoint x="548.5" y="2770" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-124" value="3. 用户扫码付款" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="2870" as="sourcePoint" />
+            <mxPoint x="240" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-125" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1" target="u7pCDF6_uqxXdPKDrsPi-118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="2900" as="sourcePoint" />
+            <mxPoint x="557" y="2900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-126" value="用户付款" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="615" y="2879" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-127" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-118" target="u7pCDF6_uqxXdPKDrsPi-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="912" y="2940" as="sourcePoint" />
+            <mxPoint x="605" y="2940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-129" value="支付成功，回调收银台" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="u7pCDF6_uqxXdPKDrsPi-127">
+          <mxGeometry x="0.0843" relative="1" as="geometry">
+            <mxPoint x="-16" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-133" value="处理预订单状态，设置成已支付" style="endArrow=classic;html=1;rounded=0;exitX=0.483;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.491;entryY=0.701;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-103" target="u7pCDF6_uqxXdPKDrsPi-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="581" y="2980" as="sourcePoint" />
+            <mxPoint x="581" y="3025.98" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="649" y="2980.06" />
+              <mxPoint x="649" y="3026.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-134" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1" target="u7pCDF6_uqxXdPKDrsPi-110">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571" y="3080" as="sourcePoint" />
+            <mxPoint x="810" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-135" value="回调业务系统，订单已支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="u7pCDF6_uqxXdPKDrsPi-134">
+          <mxGeometry x="0.0318" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u7pCDF6_uqxXdPKDrsPi-139" value="处理成功" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.5;exitY=0.894;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="u7pCDF6_uqxXdPKDrsPi-110" target="u7pCDF6_uqxXdPKDrsPi-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="3200" as="targetPoint" />
+            <mxPoint x="810" y="3200" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
