@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T04:54:37.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="G5dAocg2yuFBWMfbhL-6" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-25T01:56:40.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="x5-vZsJOxUlWYyoDUb0R" version="15.5.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1248" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -548,8 +548,11 @@
             <mxPoint x="810" y="3200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tvbeJEYaZPyMFt2N6q9V-1" value="拉取支付二维码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="tvbeJEYaZPyMFt2N6q9V-1" value="拉取支付二维码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="350" y="2660" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r8U2xhMFr_VNitIYeVep-1" value="反馈：预订单生成时期，改为用户发起支付时请求校验中，好处是分析数据，哪些用户下了预订单没有支付。&lt;br&gt;bizCode详细设计，流程详细设计，PC流程，跟进客户端流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="881" y="2180" width="459" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
