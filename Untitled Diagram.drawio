@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-25T07:33:10.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="c3o92XfcmdQjqAxHyAxx" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-25T07:33:37.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="y3vUnlm57ilw3V-CImjs" version="15.5.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1395" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -630,9 +630,6 @@
         <mxCell id="r8U2xhMFr_VNitIYeVep-19" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="r8U2xhMFr_VNitIYeVep-18">
           <mxGeometry x="75.5" y="70" width="10" height="880" as="geometry" />
         </mxCell>
-        <mxCell id="r8U2xhMFr_VNitIYeVep-29" value="OKHttpUtils: onResponse = Response{protocol=http/1.1, code=200, message=OK, url=https://test.cguardian.com/gdmall/basics/config/v1/find/pay}" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=14;position2=0.04;" vertex="1" parent="r8U2xhMFr_VNitIYeVep-18">
-          <mxGeometry x="-18" y="414" width="239" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="r8U2xhMFr_VNitIYeVep-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1.265;exitY=0.423;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="102.65000000000009" y="3933.24" as="sourcePoint" />
@@ -780,6 +777,9 @@
             <mxPoint x="930" y="4260" as="targetPoint" />
             <mxPoint x="1108.9999999999995" y="4259.999999999999" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="r8U2xhMFr_VNitIYeVep-67" value="&lt;span&gt;/config/v1/find/pay&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="416" y="3905" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
