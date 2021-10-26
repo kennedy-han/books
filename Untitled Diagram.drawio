@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T01:19:05.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="VuhykEjmumxXxpksqmyd" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T01:39:19.052Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="w0hMd1LbbWahQ67vVAGq" version="15.5.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1694" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -594,6 +594,12 @@
         <mxCell id="r8U2xhMFr_VNitIYeVep-102" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="r8U2xhMFr_VNitIYeVep-101">
           <mxGeometry x="75.5" y="70" width="10" height="940" as="geometry" />
         </mxCell>
+        <mxCell id="r8U2xhMFr_VNitIYeVep-126" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.038;entryY=0.191;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="r8U2xhMFr_VNitIYeVep-101" target="r8U2xhMFr_VNitIYeVep-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-142.46647058823535" y="249.99999999999895" as="sourcePoint" />
+            <mxPoint x="120" y="249.99999999999895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r8U2xhMFr_VNitIYeVep-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.017;exitY=1.203;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r8U2xhMFr_VNitIYeVep-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="110" y="3558" as="sourcePoint" />
@@ -867,16 +873,16 @@
           <mxGeometry x="75.5" y="70" width="10" height="940" as="geometry" />
         </mxCell>
         <mxCell id="r8U2xhMFr_VNitIYeVep-110" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #067d17&quot;&gt;支付成功回调 /pay_notify/epay&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="323" y="4860" width="230" height="50" as="geometry" />
+          <mxGeometry x="323" y="4868" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="r8U2xhMFr_VNitIYeVep-111" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.979;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r8U2xhMFr_VNitIYeVep-101" target="r8U2xhMFr_VNitIYeVep-109">
+        <mxCell id="r8U2xhMFr_VNitIYeVep-111" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.979;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="790" y="4870" as="sourcePoint" />
-            <mxPoint x="540" y="4820" as="targetPoint" />
+            <mxPoint x="317.82352941176464" y="4781.419999999999" as="sourcePoint" />
+            <mxPoint x="580.29" y="4781.419999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r8U2xhMFr_VNitIYeVep-112" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #067d17&quot;&gt;工行E支付-H5 下订单&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="341" y="4774" width="150" height="50" as="geometry" />
+          <mxGeometry x="341" y="4741" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="r8U2xhMFr_VNitIYeVep-113" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1.121;exitY=0.24;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r8U2xhMFr_VNitIYeVep-109" target="r8U2xhMFr_VNitIYeVep-101">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -901,6 +907,21 @@
         </mxCell>
         <mxCell id="r8U2xhMFr_VNitIYeVep-118" value="e支付调用cgweb处理业务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="390" y="4953" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r8U2xhMFr_VNitIYeVep-125" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="4780" width="10" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="r8U2xhMFr_VNitIYeVep-124" value="跳转到工行支付" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=0.971;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89.71000000000004" y="4817.78" as="targetPoint" />
+            <mxPoint x="306.4999999999998" y="4817.78" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8U2xhMFr_VNitIYeVep-127" value="用户支付" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="225" y="4840" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r8U2xhMFr_VNitIYeVep-128" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;后面的逻辑一样，请求CGWebMgr&lt;br&gt;调用SAP进行保证金收款&amp;nbsp;/sap_interface/onlinePaymentOrDepositReceipt&amp;nbsp;&lt;br&gt;省略&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="847.5" y="4990" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
