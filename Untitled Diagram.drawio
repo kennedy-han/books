@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T06:58:18.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uAODcRSEUzev0SPykkSI" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T07:05:35.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="V-TQkcq83_rUGccZs2kF" version="15.6.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1694" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1143,17 +1143,6 @@
             <mxPoint x="2452.5699999999997" y="2960.0000000000005" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-48" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.886;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="INJrUZIZbvVMIY2Y-3Vs-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2149.975" y="3525.55" as="sourcePoint" />
-            <mxPoint x="2727" y="3525.55" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-49" value="用预订单号查询订单状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="INJrUZIZbvVMIY2Y-3Vs-48">
-          <mxGeometry x="-0.2963" y="1" relative="1" as="geometry">
-            <mxPoint x="37" y="-13" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="INJrUZIZbvVMIY2Y-3Vs-50" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.565;exitY=0.869;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2139.995" y="3581.57" as="sourcePoint" />
@@ -1169,6 +1158,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2170" y="3610" as="targetPoint" />
             <mxPoint x="2725.43" y="3609.9999999999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-57" value="用预订单号查询订单状态" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.543;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2720" y="3519" as="targetPoint" />
+            <mxPoint x="2147.4449999999997" y="3520.75" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
