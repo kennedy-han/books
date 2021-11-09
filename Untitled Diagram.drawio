@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T02:53:19.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="i3wU-8Hnow-J2C2Uivsu" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T03:30:38.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="FbYTF-wwVVCW5Mw7LfIX" version="15.6.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1186" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1467,7 +1467,7 @@
             <mxPoint x="37" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-119" value="返回预订单记录(包含bizCode、transaction_no)，或错误码" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.057;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-119" value="返回预订单记录(transaction_no)，或错误码" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.057;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3602" y="4011" as="targetPoint" />
             <mxPoint x="3924.5699999999997" y="4009.7200000000003" as="sourcePoint" />
@@ -1599,7 +1599,7 @@
             <mxPoint x="4187" y="4041" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-144" value="拿bizCode，获取支付方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="INJrUZIZbvVMIY2Y-3Vs-143">
+        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-144" value="拿transaction_no，获取支付方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="INJrUZIZbvVMIY2Y-3Vs-143">
           <mxGeometry x="-0.2963" y="1" relative="1" as="geometry">
             <mxPoint x="37" y="-11" as="offset" />
           </mxGeometry>
