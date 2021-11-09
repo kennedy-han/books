@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T02:43:24.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="4UZiaK5Lvnw0bmQ_unN2" version="15.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-09T02:53:19.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="i3wU-8Hnow-J2C2Uivsu" version="15.6.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1395" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1467,7 +1467,7 @@
             <mxPoint x="37" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-119" value="返回预订单记录(包含bizCode)，或错误码" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.057;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-119" value="返回预订单记录(包含bizCode、transaction_no)，或错误码" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.057;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3602" y="4011" as="targetPoint" />
             <mxPoint x="3924.5699999999997" y="4009.7200000000003" as="sourcePoint" />
@@ -1575,8 +1575,8 @@
             <mxPoint x="3" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-139" value="传入预订单号，用户选择的付款方式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3645" y="4096" width="210" height="20" as="geometry" />
+        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-139" value="传入支付中心唯一订单号transaction_no，用户选择的付款方式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3593" y="4096" width="350" height="20" as="geometry" />
         </mxCell>
         <mxCell id="INJrUZIZbvVMIY2Y-3Vs-140" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.499;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1636,7 +1636,7 @@
         <mxCell id="INJrUZIZbvVMIY2Y-3Vs-150" value="更新支付方式，生成第三方预订单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="4179.5" y="4126" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-116" value="根据bizCode和业务订单ID&lt;br&gt;返回已有，或创建预订单记录" style="endArrow=classic;html=1;rounded=0;exitX=0.537;exitY=0.158;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.473;entryY=0.197;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="INJrUZIZbvVMIY2Y-3Vs-114" target="INJrUZIZbvVMIY2Y-3Vs-114">
+        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-116" value="根据bizCode和物流订单ID&lt;br&gt;返回已有，或创建预订单记录" style="endArrow=classic;html=1;rounded=0;exitX=0.537;exitY=0.158;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.473;entryY=0.197;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="INJrUZIZbvVMIY2Y-3Vs-114" target="INJrUZIZbvVMIY2Y-3Vs-114">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="4187.995" y="3926.2900000000004" as="sourcePoint" />
             <mxPoint x="4188.915" y="3971.89" as="targetPoint" />
