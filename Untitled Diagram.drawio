@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T07:27:56.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="eB9GC2wdCfgnKDkBzKNV" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T08:23:50.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="zZlgEv2G_-1udA1o7W07" version="15.8.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1395" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1670,10 +1670,10 @@
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="J2JcC5CgBubkPt8AQQ7_-4">
           <mxGeometry x="45" y="70" width="10" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="J2JcC5CgBubkPt8AQQ7_-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="J2JcC5CgBubkPt8AQQ7_-4" target="J2JcC5CgBubkPt8AQQ7_-14">
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="J2JcC5CgBubkPt8AQQ7_-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="55" y="363" as="sourcePoint" />
-            <mxPoint x="639.0699999999997" y="363" as="targetPoint" />
+            <mxPoint x="55" y="392" as="sourcePoint" />
+            <mxPoint x="720" y="391.8800000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-44" value="&lt;font color=&quot;#ff33ff&quot;&gt;2. 使用transactionNo收银台预订单号，获取支付方式，&lt;span style=&quot;font-family: &amp;#34;avenir&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgba(97 , 175 , 254 , 0.1)&quot;&gt;/micro/cashier/pay/app/getPayMethod&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="J2JcC5CgBubkPt8AQQ7_-43">
@@ -1681,10 +1681,10 @@
             <mxPoint x="75" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J2JcC5CgBubkPt8AQQ7_-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="J2JcC5CgBubkPt8AQQ7_-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="742" as="sourcePoint" />
-            <mxPoint x="648" y="742" as="targetPoint" />
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-10" value="展示支付方式" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="J2JcC5CgBubkPt8AQQ7_-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-95" y="562" as="targetPoint" />
+            <mxPoint x="45" y="562" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
@@ -1695,16 +1695,10 @@
             <mxPoint x="4885" y="3888" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J2JcC5CgBubkPt8AQQ7_-10" value="展示支付方式" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4805" y="4277" as="targetPoint" />
-            <mxPoint x="4945" y="4277" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-11" value="2. 选择支付方式，下单" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4815" y="4307.41" as="sourcePoint" />
-            <mxPoint x="4945" y="4307.41" as="targetPoint" />
+            <mxPoint x="4815" y="4450" as="sourcePoint" />
+            <mxPoint x="4945" y="4450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -1726,6 +1720,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.531;entryY=0.793;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="J2JcC5CgBubkPt8AQQ7_-13" target="J2JcC5CgBubkPt8AQQ7_-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="692.9999999999991" as="sourcePoint" />
+            <mxPoint x="61.029999999999745" y="777.9999999999991" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="138" y="693" />
+              <mxPoint x="138" y="793" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.519;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="J2JcC5CgBubkPt8AQQ7_-13" target="J2JcC5CgBubkPt8AQQ7_-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="892.9999999999991" as="sourcePoint" />
+            <mxPoint x="61.029999999999745" y="977.9999999999991" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="138" y="893" />
+              <mxPoint x="140" y="974" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=-0.193;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J2JcC5CgBubkPt8AQQ7_-5" target="J2JcC5CgBubkPt8AQQ7_-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="4975" y="3918" as="sourcePoint" />
@@ -1738,49 +1752,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-19" value="业务系统&#xa;gdmall_line2" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="5230" y="3808" width="160" height="1000" as="geometry" />
+          <mxGeometry x="5230" y="3808" width="160" height="342" as="geometry" />
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="J2JcC5CgBubkPt8AQQ7_-19">
-          <mxGeometry x="67" y="70" width="10" height="930" as="geometry" />
-        </mxCell>
-        <mxCell id="J2JcC5CgBubkPt8AQQ7_-18" value="返回预订单记录(transaction_no)，或错误码" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.057;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="J2JcC5CgBubkPt8AQQ7_-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-269" y="443.27999999999975" as="targetPoint" />
-            <mxPoint x="53.56999999999971" y="442" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="67" y="70" width="10" height="270" as="geometry" />
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-24" value="第三方支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="5910" y="3808" width="115" height="600" as="geometry" />
+          <mxGeometry x="5910" y="3808" width="115" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="J2JcC5CgBubkPt8AQQ7_-24">
-          <mxGeometry x="44" y="70" width="10" height="530" as="geometry" />
+          <mxGeometry x="44" y="70" width="10" height="930" as="geometry" />
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5547" y="4370" as="sourcePoint" />
-            <mxPoint x="5775" y="4370" as="targetPoint" />
+            <mxPoint x="5630" y="4640" as="sourcePoint" />
+            <mxPoint x="5967" y="4639.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-62" value="&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.0667px&quot;&gt;请求第三方接口&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J2JcC5CgBubkPt8AQQ7_-26">
+          <mxGeometry x="-0.129" y="5" relative="1" as="geometry">
+            <mxPoint x="5" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-27" value="根据预订单号对应的bizCode验证支付方式&lt;br&gt;更新支付类型pay_type，&lt;br&gt;设置新回调收银台地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="5775" y="4118" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="J2JcC5CgBubkPt8AQQ7_-28" value="ok" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.589;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-28" value="付款二维码链接URL等返回值" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5534.5" y="4408" as="targetPoint" />
-            <mxPoint x="5760.5" y="4408.17" as="sourcePoint" />
+            <mxPoint x="5630" y="4676" as="targetPoint" />
+            <mxPoint x="5967" y="4675.999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J2JcC5CgBubkPt8AQQ7_-29" value="等待用户支付" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="J2JcC5CgBubkPt8AQQ7_-13" target="J2JcC5CgBubkPt8AQQ7_-4">
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-29" value="返回二维码URL，前端使用它跳转到第三方APP付款" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=-0.471;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.522;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4975" y="4218" as="targetPoint" />
-            <mxPoint x="5253.5" y="4218" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="5110" y="4480" />
-            </Array>
+            <mxPoint x="4940.29" y="4795.330000000001" as="targetPoint" />
+            <mxPoint x="5630.03" y="4794.999999999999" as="sourcePoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-39" value="&lt;font color=&quot;#ff33ff&quot;&gt;3. 向第三方下单，&lt;span style=&quot;font-family: &amp;#34;avenir&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgba(97 , 175 , 254 , 0.1)&quot;&gt;/micro/cashier/test/pay/app/createThirdPartyOrder&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4960" y="4530" width="430" height="20" as="geometry" />
+          <mxGeometry x="4970" y="4455" width="430" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-40" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.499;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="J2JcC5CgBubkPt8AQQ7_-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1797,22 +1808,23 @@
             <mxPoint x="5627" y="4089.9999999999995" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J2JcC5CgBubkPt8AQQ7_-45" value="返回支付方式列表（银联，工行等）" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="J2JcC5CgBubkPt8AQQ7_-13" target="J2JcC5CgBubkPt8AQQ7_-4">
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-45" value="返回支付方式列表（银联支付宝，工行微信等）" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" source="J2JcC5CgBubkPt8AQQ7_-13" target="J2JcC5CgBubkPt8AQQ7_-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="4945" y="4079.279999999999" as="targetPoint" />
             <mxPoint x="5267.57" y="4078.0000000000005" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="5190" y="4430" />
+              <mxPoint x="5450" y="4340" />
+              <mxPoint x="5180" y="4340" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-50" value="更新支付方式，生成第三方预订单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="5535" y="4337" width="230" height="20" as="geometry" />
+          <mxGeometry x="5615" y="4388" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-6" value="待用户支付" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4805" y="4500" as="targetPoint" />
-            <mxPoint x="4945" y="4500" as="sourcePoint" />
+            <mxPoint x="4805" y="4812" as="targetPoint" />
+            <mxPoint x="4945" y="4812" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-53" value="&lt;span style=&quot;font-size: 14px&quot;&gt;业务校验&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;根据token获取User&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;根据applyId查询物流申请单&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;查询物流订单状态，如果不是7抛异常&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;验证登录用户是否是物流订单用户&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;是否是即刻拍&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;检查运输总费用&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;传入bizCode调用收银台服务，创建收银台预订单&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -1827,8 +1839,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.522;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5628" y="4225" as="sourcePoint" />
+            <mxPoint x="5634.03" y="4310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5711" y="4225" />
+              <mxPoint x="5711" y="4310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-57" value="查询&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayTransaction记录，拿到bizCode&lt;br&gt;使用bizCode拉取&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayChannel列表&lt;br&gt;返回可用的支付方式列表&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5570" y="4240" width="270" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-55" value="根据bizCode拉取现有的支付方式编码列表&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayChannel&lt;/span&gt;&lt;br&gt;插入一条&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayTransaction&lt;/span&gt;&lt;span&gt;支付流水记录，订单状态为0等待支付中&lt;br&gt;使用UUID去掉字符-作为唯一ID，返回&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5535" y="3982" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1" target="J2JcC5CgBubkPt8AQQ7_-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4955" y="4480" as="sourcePoint" />
+            <mxPoint x="5543" y="4480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-61" value="查询&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayTransaction记录，设置&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;channelCode为用户选择的支付渠道&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;设置订单状态为1待付款完成&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;根据不同的channelCode去不同的第三方下订单&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5465" y="4527" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J2JcC5CgBubkPt8AQQ7_-64" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;保存下订单记录，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayPreOrderData&lt;br&gt;返回二维码支付地址URL&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5570" y="4725" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
