@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T08:29:07.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="R_QtoSrjjxtpDBwETSyD" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T08:38:49.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="w1mQvVZYp2_ckZ_MPAX6" version="15.8.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1395" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1977" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1583,13 +1583,13 @@
             <mxPoint x="4187" y="4657.36" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-137" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.487;entryY=0.766;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="INJrUZIZbvVMIY2Y-3Vs-114" target="INJrUZIZbvVMIY2Y-3Vs-120" edge="1">
+        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-137" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.508;entryY=0.736;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="INJrUZIZbvVMIY2Y-3Vs-120" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4160" y="4516" as="sourcePoint" />
-            <mxPoint x="3970" y="4516" as="targetPoint" />
+            <mxPoint x="4190" y="4531" as="sourcePoint" />
+            <mxPoint x="4010" y="4540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-138" value="回调业务系统，订单已支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="INJrUZIZbvVMIY2Y-3Vs-137" vertex="1" connectable="0">
+        <mxCell id="INJrUZIZbvVMIY2Y-3Vs-138" value="消息通知业务系统，订单已支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="INJrUZIZbvVMIY2Y-3Vs-137" vertex="1" connectable="0">
           <mxGeometry x="0.0318" y="2" relative="1" as="geometry">
             <mxPoint x="3" y="-12" as="offset" />
           </mxGeometry>
@@ -1859,7 +1859,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-61" value="查询&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayTransaction记录，设置&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;channelCode为用户选择的支付渠道&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;设置订单状态为1待付款完成&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;根据不同的channelCode去不同的第三方下订单&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;此处使用银联商务丰朗物流参数&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5465" y="4521" width="430" height="60" as="geometry" />
+          <mxGeometry x="5465" y="4523" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-64" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;保存下订单记录，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayPreOrderData&lt;br&gt;返回二维码支付地址URL&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5570" y="4725" width="240" height="30" as="geometry" />
