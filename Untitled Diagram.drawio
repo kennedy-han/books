@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T12:16:25.630Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="qUOeaMxSNLdQZrKrNPVY" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T12:17:38.919Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="uQSLL1qR4k_oTzHNjf9M" version="15.8.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1395" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1864,10 +1864,10 @@
         <mxCell id="J2JcC5CgBubkPt8AQQ7_-64" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;保存下订单记录，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;PayPreOrderData&lt;br&gt;返回二维码支付地址URL&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="5570" y="4725" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w3SnyqTWOgkusNFcgQBb-2" value="4. 查询订单支付状态" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=-0.006;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FF33FF;" edge="1" parent="1">
+        <mxCell id="w3SnyqTWOgkusNFcgQBb-2" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;entryX=-0.006;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FF33FF;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5502.94" y="5657.1" as="targetPoint" />
-            <mxPoint x="4775.000000000001" y="5658.999999999999" as="sourcePoint" />
+            <mxPoint x="5502.94" y="5606.1" as="targetPoint" />
+            <mxPoint x="4775.000000000001" y="5607.999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w3SnyqTWOgkusNFcgQBb-4" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
@@ -1901,7 +1901,7 @@
           <mxGeometry x="66" y="70" width="10" height="650" as="geometry" />
         </mxCell>
         <mxCell id="w3SnyqTWOgkusNFcgQBb-22" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;4. 查询订单支付状态，&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;avenir&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;/micro/cashier/test/pay/app/getOrderStatus&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#FF33FF;" vertex="1" parent="w3SnyqTWOgkusNFcgQBb-19">
-          <mxGeometry x="-240" y="601" width="400" height="20" as="geometry" />
+          <mxGeometry x="-240" y="550" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w3SnyqTWOgkusNFcgQBb-24" value="第三方支付平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="5689" y="5036" width="115" height="214" as="geometry" />
@@ -1964,8 +1964,8 @@
         </mxCell>
         <mxCell id="w3SnyqTWOgkusNFcgQBb-51" value="订单状态结果" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.124;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.206;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4777.0599999999995" y="5680.152000000001" as="targetPoint" />
-            <mxPoint x="5501.76" y="5682.35" as="sourcePoint" />
+            <mxPoint x="4777.0599999999995" y="5629.152000000001" as="targetPoint" />
+            <mxPoint x="5501.76" y="5631.35" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w3SnyqTWOgkusNFcgQBb-21" value="只处理bizCode是丰朗物流的消息&lt;br&gt;根据applyId查询物流申请单&lt;br&gt;如果申请单status==7待付款状态时，&lt;br&gt;更新status==4待发货状态" style="endArrow=classic;html=1;rounded=0;entryX=0.496;entryY=0.709;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="w3SnyqTWOgkusNFcgQBb-19">
@@ -1986,9 +1986,6 @@
         </mxCell>
         <mxCell id="w3SnyqTWOgkusNFcgQBb-55" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="w3SnyqTWOgkusNFcgQBb-54">
           <mxGeometry x="66" y="70" width="10" height="650" as="geometry" />
-        </mxCell>
-        <mxCell id="w3SnyqTWOgkusNFcgQBb-56" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;4. 查询订单支付状态，&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;avenir&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;/micro/cashier/test/pay/app/getOrderStatus&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#FF33FF;" vertex="1" parent="w3SnyqTWOgkusNFcgQBb-54">
-          <mxGeometry x="-240" y="601" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w3SnyqTWOgkusNFcgQBb-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
